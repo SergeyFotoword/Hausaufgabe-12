@@ -1,0 +1,426 @@
+    1  cd
+    2  ssh-keygen
+    3  ls
+    4  ls -la
+    5  cat .ssh/id_ed25519
+    6  cat .ssh/id_ed25519.pub
+    7  ~ssh ec2-user@linux.itcareerhub.de
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  ls -la
+   10  cd .
+   11  cd ..
+   12  ls -la
+   13  ssh ls-la /.ssh
+   14  ls-la /.ssh
+   15  ls -la /.ssh
+   16  ls -la .ssh
+   17  ssh .ssh/id_ed25519.pub 
+   18  ssh .ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+   19  ssh -i .ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+   20  ssh ~/.ssh/id_ed25519.pub ec2-user@linux.itcareerhub.de
+   21  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   22  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   23  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   24  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   25  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   26  scp ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   27  scp .ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   28  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de://opt/210225-ptm/SERGIY/.process_management .
+   29  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:///opt/210225-ptm/SERGIY/.process_management .
+   30  scp .ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   31  scp .ssh/id_ed25519ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   32  scp -i ~/.ssh/id_ed25519ec2-user@linux.itcareerhub.de:///opt/210225-ptm/SERGIY/.process_management .
+   33  scp .ssh/id_ed25519:ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   34  scp ec2-user@linux.itcareerhub.de:///opt/210225-ptm/SERGIY/.process_management .
+   35  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_management .
+   36  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_managment 
+   37  scp ec2-user@linux.itcareerhub.de:///opt/210225-ptm/SERGIY/.process_management .
+   38  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   39  export SERGIY_VARIABLE=210225-ptm
+   40  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   41  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   42  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   43  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   44  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   45  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   46  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   47  date
+   48  date +$D
+   49  date +%D
+   50  date +%d-%m-%Y
+   51  date +%d-%m-%Y
+   52  ps -ef | grep "root" | wc -l
+   53  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   54  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/SERGIY/.process_managment .
+   55  cd
+   56  mkdir -p linux
+   57  cd linux
+   58  ls -la
+   59  echo "# linux" >> README.md
+   60  ls -la
+   61  git init
+   62  git status
+   63  git add README.md
+   64  git status
+   65  git .
+   66  git add .
+   67  git status
+   68  commit -m "first commit"
+   69  cd linux
+   70  cd
+   71  cd linux
+   72  commit -m "first commit"
+   73  git commit -m "first commit"
+   74  git config --global user.email "fotoword.ua@gmail.com"
+   75  git config --global user.name "SergeyFotoword"
+   76  git commit -m "first commit"
+   77  git branch -M main
+   78  git remote add origin git@github.com:SergeyFotoword/linux.git
+   79  git push -u origin main
+   80  mkdir -p HW_10
+   81  cd HW_10
+   82  touch file.txt
+   83  cd ..
+   84  cd .
+   85  mkdir -p HW_11
+   86  git status
+   87  git add .
+   88  git status
+   89  git commit -m "Dies file is new"
+   90  git push 
+   91  cd
+   92  mkdir -p git_intro
+   93  cd git_intro
+   94  git init
+   95  cp /Edius-Temp/Evgeniy_Roitman.jpg .
+   96  cp ../Edius-Temp/Evgeniy_Roitman.jpg .
+   97  cp /Edius-temp/Evgeniy_Roitman.jpg .
+   98  ls -la
+   99  ls -la ./..
+  100  ls -la ./../
+  101  ls -la ./../../
+  102  ls -la ./../../../
+  103  ls -la ./../../../Edius-temp/Evgeniy_Roitman.jpg .
+  104  ls -la
+  105  cd .
+  106  ls -la
+  107  ls
+  108  ls -l
+  109  cp ./../../../Edius-temp/Evgeniy_Roitman.jpg .
+  110  ls -la
+  111  git add Evgeniy_Roitman.jpg 
+  112  git commit -m "Added photo"
+  113  git branch -M main
+  114  git remote add origin git@github.com:SergeyFotoword/git_intro.git
+  115  git push -u origin main
+  116  git config  --global user.name SergeyFotoword
+  117  git status
+  118  git log
+  119  git push -u origin main
+  120  git config  --global user.name SergeyFotoword
+  121  git config  --global user.email fotoword.ua@gmail.com
+  122  git remote add origin git@github.com:SergeyFotoword/git_intro.git
+  123  git push -u origin main
+  124  git log
+  125  git remote add origin git@github.com:SergeyFotoword/git_intro.git
+  126  git push -u origin main
+  127  git push -u origin main
+  128  git log
+  129  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  130  nano 0404.txt
+  131  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  132  nano myfirstbashscript.sh
+  133  date
+  134  date +%d-%m-%y
+  135  nano myfirstbashscript.sh
+  136  ps -ef
+  137  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  138  nano myfirstbashscript.sh
+  139  ls -la
+  140  ls -la
+  141  ls -la | grep /etc/passwd
+  142  ls -la | grep /etc/passwd | awk {'print $1'}
+  143  nano myfirstbashscript.sh
+  144  nano myfirstbashscript.sh
+  145  nano myfirstbashscript.sh
+  146  nano myfirstbashscript.sh
+  147  nano myfirstbashscript.sh
+  148  cls
+  149  [200~
+  150  ssh  ec2-user@linux.itcareerhub.de
+  151  ssh ec2-ser@linux.itcareerhub.de:/opt/chumak/260
+  152  ssh  ec2-user@linux.itcareerhub.de
+  153  git branch git-branch
+  154  cd /
+  155  git branch git-branch
+  156  git branch --list
+  157  git init
+  158  git init
+  159  git status
+  160  cd /
+  161  git status
+  162  git init
+  163  cd 
+  164  git init
+  165  git status
+  166  git init
+  167  echo "#test" >> README.md
+  168  git status
+  169  git checkout -b MAIN
+  170  git status
+  171  git branch git-branch
+  172  git status
+  173  exit
+  174  cd
+  175  [200~
+  176  git init
+  177  echo "# git-branch" >> README.md
+  178  git add README.md
+  179  git commit -m "first commit"
+  180  git branch -M main
+  181  git remote add origin git@github.com:SergeyFotoword/git-branch.git
+  182  git push -u origin main
+  183  git branch --list
+  184  git branch git-branch
+  185  git chekout -b git-branch
+  186  git chekout git-branch
+  187  git checkout git-branch
+  188  git status
+  189  touch .gitignore
+  190  nano .gitignore 
+  191  ls -l
+  192  nano .gitignore 
+  193  [200~echo "# test" >> README.md
+  194  echo "# test" >> README.md
+  195  git add README.md
+  196  git status
+  197  git add .gitignore
+  198  git status
+  199  git commit -m "add .gitignore and README.md"
+  200  push -u origin git-branch
+  201  git push -u origin git-branch
+  202  echo "# neu test" >> README.md
+  203  nano .gitignore 
+  204  git status
+  205  nano .gitignore 
+  206  git status
+  207  git commit -m "add neu file in .gitignore"
+  208  git status
+  209  git push -u origin git-branch
+  210  cd
+  211  bd
+  212  cd
+  213  cd ..
+  214  cd
+  215  git status
+  216  ls -la
+  217  rm -rf .git/
+  218  rm -rf .gitignore 
+  219  cd Desktop
+  220  rm -rf .git/
+  221  cd
+  222  mkdir git-merge-vs-rebase
+  223  cd git-merge-vs-rebase/
+  224  clear
+  225  git init
+  226  git branch -M main
+  227  echo "Привет, мир!" > file.txt
+  228  git add file.txt
+  229  git commit -m "init first commit file.txt"
+  230  git checkout - b feature
+  231  git checkout -b feature
+  232  echo "Feature 1" >> file.txt
+  233  git commit -am "feat: добавлена первая фича"
+  234  echo "Feature 2" >> file.txt
+  235  git commit -am "feat: добавлена вторая фича"
+  236  git branche
+  237  git branch
+  238  git chekout main
+  239  git checkout main
+  240  echo "Feature qqqqq2" >> file.txt
+  241  git commit -am "feat: добавлена qqqqq фича"
+  242  history
+  243  git status
+  244  git merge feature
+  245  git status
+  246  nano file.txt
+  247  git log --oneline --graph --all
+  248  git commit -am "Объединили ветки"
+  249  git log --oneline --graph --all
+  250  ssh  ec2-user@linux.itcareerhub.de
+  251  ssh  ec2-user@linux.itcareerhub.de
+  252  scp ec2-user@linux.itcareerhub.de:/opt/210225-ptm/galushka/permission_checker.sh .
+  253  git branch
+  254  git init
+  255  rm -rf .git
+  256  cd
+  257  rm -rf .git
+  258  mkdir git-conflict-demo
+  259  cd git-conflict-demo/
+  260  git init
+  261  git branche -m main
+  262  git branche -m master main
+  263  git branche -M  main
+  264  git branch -m  main
+  265  echo "Привет, мир!" > file.txt
+  266  ls
+  267  git status
+  268  git add file.txt
+  269  git status
+  270  git commit -m "init: добавлен приветственный текст"
+  271  git checkout -b feature
+  272  echo "Эта строка добавлена в ветке feature" >> file.txt
+  273  git status
+  274  git commit -am "Добавлена строка ветки features"
+  275  git checkout main
+  276  git branch
+  277  echo "Изменение из ветки main" >> file.txt
+  278  git add .
+  279  git commit -m "added text"
+  280  git merge feature 
+  281  git status
+  282  nano file.txt 
+  283  git status
+  284  git add file.txt
+  285  git status
+  286  git commit -m "Merge: мы решили конфликт и соединили две ветки"
+  287  git log --oneline
+  288  git log --oneline --graph
+  289  git log --oneline --graph ßdecorate
+  290  git log --oneline --graph --decorate
+  291  git log --oneline  --decorate --graph
+  292  git log --oneline  --decorate
+  293  git log --oneline
+  294  git reset --hard HEAD~1
+  295  git checkout feature
+  296  git rebase main
+  297  git status
+  298  nano file.txt 
+  299  git add file.txt 
+  300  git rebase —continue
+  301  nano file.txt 
+  302  echo "Что-нибудь" >> file.txt
+  303  git rebase --continue
+  304  git status
+  305  nano file.txt 
+  306  git add .
+  307  git rebase --continue
+  308  git commit -m "лорлорлор"
+  309  echo "Что-нибудь" >> file.txt
+  310  git commit -m "лорлорлор"
+  311  git commit --amend
+  312  git status
+  313  git add .
+  314  git status
+  315  git commit -m "олорлор"
+  316  пше ыефегы
+  317  git status
+  318  git log --oneline
+  319  git reset --soft HEAD~1
+  320  git log --oneline
+  321  git commit -m "LAST UPDATE"
+  322  git reset --mixed HEAD~1
+  323  git log --oneline
+  324  git status
+  325  git reset --hard HEAD~1
+  326  ls -l
+  327  nano .gitignore
+  328  git commit -am "added gitignore"
+  329  touch 1.jpg
+  330   git add .
+  331  git status
+  332  git commit -am "added gitignore2"
+  333  git remote add origin git@github.com:SergeyFotoword/git-conflict-demo.git
+  334  git push -u origin main
+  335  св
+  336  cd
+  337  git branch
+  338  mkdir 2904-fotoword
+  339  cd 2904-fotoword/
+  340  echo "# 2904-fotoword" >> README.md
+  341  git init
+  342  git status
+  343  git add README.md
+  344  git commit -m "first commit"
+  345  git branch -M main
+  346  git remote add origin git@github.com:SergeyFotoword/2904-fotoword.git
+  347  git remote -v
+  348  git push -u origin main
+  349  git checkout -b bagfix
+  350  vi .gitignore
+  351  git status
+  352  git add .
+  353  git commit -m "add .gitignore"
+  354  git staTUS
+  355  git status
+  356  git branch
+  357  git checkout main
+  358  git merge bagfix
+  359  ls -l
+  360  git status
+  361  git add .
+  362  git commit -m "add .gitignore"
+  363  git merge bagfix
+  364  git status
+  365  ls -la
+  366  git push
+  367  git branch -d bagfix
+  368  cd 
+  369  git clone git@github.com:SergeyFotoword/git-PR.git
+  370  cd git-PR
+  371  ls -la
+  372  git checkout -b change-gitignore
+  373  git branch -M #1-change-gitignore
+  374  git branch -M change-gitignore#1
+  375  nano .gitignore 
+  376  git status
+  377  git commit -am "change .gitignore"
+  378  git checkout main
+  379  git merge change-gitignore#1 
+  380  git push origin main
+  381  git remote add upstream https://github.com/iohichu/git-PR.git
+  382  git remote -v
+  383  git fetch upstream
+  384  git merge upstream/main
+  385  ls -la
+  386  git fetch upstream
+  387  git merge upstream/main
+  388  ls -la
+  389  git fetch upstream
+  390  git merge upstream/main
+  391  cd
+  392  [200~$ echo "# Hausaufgabe-12" >> README.
+  393  echo "# Hausaufgabe-12" >> README.md
+  394  mkdir Hausafgabe-12
+  395  cd Hausafgabe-12/
+  396  echo "# Hausaufgabe-12" >> README.md
+  397  git init
+  398  git add README.md
+  399  git commit -m "first commit"
+  400  git branch -M main
+  401  git remote add origin git@github.com:SergeyFotoword/Hausaufgabe-12.git
+  402  git status
+  403  ls -la
+  404  echo "# Hausaufgabe-12123123123222" >> README.md
+  405  git commit -m "seckond commit"
+  406  git add .
+  407  git status
+  408  git remote add origin git@github.com:SergeyFotoword/Hausaufgabe-12.git
+  409  git push -u origin main
+  410  nano .gitignore
+  411  git clone https://github.com/SergeyFotoword/Hausaufgabe-12
+  412  ls -la
+  413  git checkout -b feature
+  414  ls -la
+  415  echo "# add .gitignore" >> README.md
+  416  add .gitignore 
+  417  git add .gitignore 
+  418  git commit -m "add .gitignore"
+  419  git push origin feature
+  420  git status
+  421  git add .
+  422  git status
+  423  git commit --amend
+  424  git checkout main
+  425  git merge feature
+  426  history >> history.txt
